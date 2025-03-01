@@ -26,6 +26,8 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented required features:
 
+![WEB102-Community Board-P1](https://github.com/user-attachments/assets/a6e8c59d-1bf9-44db-9769-dc25d8754f1a)
+
 [Video Walkthrough](https://www.loom.com/share/808850efb4f14533ab81d76185eb8f26?sid=3ea9c031-0b60-4163-8656-9b4afcd98d71)
 
 ## Notes
