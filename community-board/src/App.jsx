@@ -1,34 +1,23 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import './App.css';
+import Collections from './components/Collections';
+import bannerImage from './assets/banner.jpeg';
 
-function App() {
-  const [count, setCount] = useState(0)
+const App = () => {
 
   return (
-    <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
+    <div className="app">
+
+      <div className="banner">
+        <img src={bannerImage} alt="WiCS Community Board Banner" />
       </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
+
+      <div className="content">
+        <h1>Women In Computer Science Community Board</h1>
+        <p>The Women in Computer Science (WiCS) Community Board is a platform that highlights events, resources, and opportunities for women in tech. It provides information on conferences, hackathons, challenges, and learning materials to support and empower women pursuing careers in computer science.</p>
+        <Collections />
       </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
+
+    </div>
   )
 }
 
