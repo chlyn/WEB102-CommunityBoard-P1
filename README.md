@@ -1,4 +1,4 @@
-# Web Development Project 1 - *Women In Computer Science*
+# Web Development Project 1 - *Women In Computer Science Community Board*
 
 Submitted by: **Chenilyn Joy Espineda**
 
